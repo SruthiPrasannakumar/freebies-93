@@ -1,0 +1,135 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+
+}
+.outline-btns{
+    border-radius: 23.49px;
+    border: solid #F53855 1px;
+    color: #F53855;
+    width: 80.47px;
+    height: 31.14px;
+    background-color: white;
+    padding: 4px;
+    margin-right: 10px;
+    margin-left: 10px; 
+    font-size: 12.52px;
+   
+}
+ul li{
+    cursor: pointer;
+}
+.ending{
+    right: 0px;
+}
+.color-button{
+    background-color: #F53838;
+    color: #FFFFFF;
+    border-radius: 4.7px;
+    width: 117.46px;
+    height: 28.19px;
+    font-size: 7.52px;
+    border: none;
+    box-shadow: 0px 10px 22px #F53838;
+}
+.line{
+    background-color: #EEEFF2;
+    height: 59px;
+    width: 2px;
+}
+.box{
+    box-shadow: 0px 20px 22px #EEEFF2;
+}
+.container{
+    height: 70vh;
+    margin-top: 15%;
+}
+.img-text{
+    width: 100%;
+    height: 300px;
+    display: block;
+    text-align: center;
+    padding: 40% 5%;
+    border-radius: 15px;
+    border: solid 1px #DCDCDC;
+
+}
+.img-text h2{
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.img-text p{
+    font-size: 14px;
+}
+.single-box{
+    position: relative;
+    margin-bottom: 30px;
+}
+.img-area{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    /* border: 5px solid #fff; */
+    overflow: hidden;
+    top: 15px;
+    left: 50px;
+    border-radius: 50%;
+    
+
+}
+.img-area img{
+    width: 100%;
+    object-fit: cover;
+}
+.carousel-indicators{
+    left: 0;
+    top: auto;
+    bottom: -70px;
+}
+.carousel-indicators button{
+    background: #000;
+    border-radius:50% ;
+    width: 15px;
+    height:15px;
+
+}
+.carousel-indicators .active{
+    background: #df6e6e;
+}
+footer{
+    background-color: #F8F8F8;
+}
+footer p{
+    font-size: 14px;
+}
+.grey-text{
+    color: #AFB5C0;
+}
+/* .media img src{
+    box-shadow: 0px 20px 22px #EEEFF2; 
+} */
+ .txt-sizing{
+    font-size: 14px;
+ }
+footer a{
+    color:#4F5665;
+}
+@media only screen and (max-width:600px){
+    .box{
+        box-shadow: 0px 20px 22px #FFFFFF;
+    }
+    .line{
+        background-color: #EEEFF2;
+        height: 0px;
+        width: 0px;
+        margin: 0px;
+       
+    }
+    .content{
+        margin: 40px 40px;
+    }
+
+}
